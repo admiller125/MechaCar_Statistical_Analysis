@@ -12,7 +12,7 @@ Vehicle length and ground clearance provided a non-random amount of variance. Th
 
 * Is the slope of the linear model considered to be zero? Why or why not?
 
-The slope is likely zero. The null hypothesis is that the slope is not equal to 0 and has been rejected on a 95% confidence interval. This can be seen in the p-value of 5.35e-11 which is far less than 0.05.
+The slope is non-zero. The null hypothesis is that the slope is not equal to 0 and has been rejected on a 95% confidence interval. This can be seen in the p-value of 5.35e-11 which is far less than 0.05.
 
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
