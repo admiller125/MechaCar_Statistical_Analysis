@@ -80,7 +80,7 @@ significantly higher confidence interval.
 In an effort to determine what metrics are important to the consumer I would come up with a comprehensive list of metrics such as cost, safety rating, time to get from 0-60, fuel efficiency, maintenance cost, horsepower, etc. and I would
 use multiple linear regression on a previous year's data of all car models of a specific type and map these features to sales. The hypothesis for multiple linear regression is that the slope of the linear model is not 0. This implies 
 correlation between the metrics selected and sales. The null hypothesis is that the slope of the linear model is 0 implying the opposite. The alternative hypothesis is the same as the hypothesis. Then I would determine which metrics 
-have a significant linear relationship to sales (based on the p-value) as this would determine metrics that have a significant correlation to sales implying which features the customer truly values.  After refining the metrics, I would 
+have a significant linear relationship to sales (based on the p-value) as this would determine metrics that have a significant correlation to sales. This further implies which features the customer truly values.  After refining the metrics, I would 
 run a second multivariate linear analysis with just the statistically relevant metrics (the hypothesis, null hypothesis, and the alternative hypothesis remain the same). I would then use the coefficients found in this process to create a 
 linear equation to predict next year's sales numbers based on the metrics of all the cars in the category for this year. 
 
