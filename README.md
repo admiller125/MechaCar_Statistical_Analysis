@@ -50,19 +50,19 @@ T-test All Lots Summary Results:
 
 ![](Resources/totalt.PNG)
 
-In the results of this t-test, the null hypothesis is true mean is equal to 1500 PSI this is failed to be rejected on a 95% confidence interval. 
+In the results of this t-test, the null hypothesis is that the true mean is equal to 1500 PSI. This has failed to be rejected on a 95% confidence interval. 
 
 ![](Resources/lot1t.PNG)
 
-In the results of this t-test, the null hypothesis is true mean is equal to 1500 PSI this is failed to be rejected on a 95% confidence interval definitively as the p-value was 1. 
+In the results of this t-test, the null hypothesis is that the true mean is equal to 1500 PSI. This has failed to be rejected on a 95% confidence interval definitively as the p-value was 1. 
 
 ![](Resources/lot2t.PNG)
 
-In the results of this t-test, the null hypothesis is true mean is equal to 1500 PSI this is failed to be rejected on a 95% confidence interval with a fairly large p-value of 0.6. 
+In the results of this t-test, the null hypothesis is that the true mean is equal to 1500 PSI. This has failed to be rejected on a 95% confidence interval with a fairly large p-value of 0.6. 
 
 ![](Resources/lot3t.PNG)
 
-In the results of this t-test, the null hypothesis is true mean is equal to 1500 PSI this is rejected on a 95% confidence interval with a p-value of 0.04.
+In the results of this t-test, the null hypothesis is that the true mean is equal to 1500 PSI. This has been rejected on a 95% confidence interval with a p-value of 0.04.
 
 The results from these t-tests are in alignment with the findings in the total and lot summary statistics. The t-test on all the lots combined proved to be acceptable for manufacturing standards, but upon further investigation lot 3 is 
 the only lot that does not comply with manufacturing standards, while lots 1 and 2 easily comply. If the manufacturing was improved in lot 3 it is clear that the overall dataset would be able to fail to reject the null hypothesis at a 
