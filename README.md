@@ -5,37 +5,37 @@ Linear Regression Results:
 
 ![](Resources/linear_reg_mpg.PNG)
 
-*Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 Vehicle length and ground clearance provided a non-random amount of variance. This implies a significant linear relationship between these variables and miles per gallon.
 
 
-*Is the slope of the linear model considered to be zero? Why or why not?
+* Is the slope of the linear model considered to be zero? Why or why not?
 
 The slope is non-zero. The null hypothesis is that the slope is not equal to 0 and has failed to be rejected on a 95% confidence interval. This can be seen in the p-value of 5.35e-11 which is far less
 than 0.05.
 
 
-*Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 This linear model predicts the mpg fairly effectively. This can be seen by the high R-squared value of approximately 0.71.
 
 
 ## Summary Statistics on Suspension Coils
 
-*The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all 
+* The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all 
 manufacturing lots in total and each lot individually? Why or why not?
 
 Total Summary Results:
 
-![](Resources/total_summary.png)
+![](Resources/total_summary.PNG)
 
 Overall the lots have a variance of roughly 62.3, which is lower than the 100 PSI variance required. The mean and median are very close at roughly 1499 and 1500 PSI respectively making it likely that this is the intended design PSI.
 
 
 Lot Summary Results:
 
-![](Resources/lot_summary.png)
+![](Resources/lot_summary.PNG)
 
 Individually, Lot 1 and Lot 2 meet the requirement of being below 100 PSI of variance, and are providing near perfect results (both values are below 10). Lot 3 fails the requirement for less than 100 PSI of variance at slightly above 170
 PSI. Lot 3 skewed the results in the total summary to have a lower mean, and have a significantly higher variance and standard deviation.
@@ -48,19 +48,19 @@ determine whether the mean suspension pressure of a data set is equal to 1500 PS
 
 T-test All Lots Summary Results:
 
-![](Resources/totalt.png)
+![](Resources/totalt.PNG)
 
 In the results of this t-test, the null hypothesis is true mean is equal to 1500 PSI this is failed to be rejected on a 95% confidence interval. 
 
-![](Resources/lot1t.png)
+![](Resources/lot1t.PNG)
 
 In the results of this t-test, the null hypothesis is true mean is equal to 1500 PSI this is failed to be rejected on a 95% confidence interval definitively as the p-value was 1. 
 
-![](Resources/lot2t.png)
+![](Resources/lot2t.PNG)
 
 In the results of this t-test, the null hypothesis is true mean is equal to 1500 PSI this is failed to be rejected on a 95% confidence interval with a fairly large p-value of 0.6. 
 
-![](Resources/lot3t.png)
+![](Resources/lot3t.PNG)
 
 In the results of this t-test, the null hypothesis is true mean is equal to 1500 PSI this is rejected on a 95% confidence interval with a p-value of 0.04.
 
