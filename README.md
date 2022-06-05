@@ -29,7 +29,7 @@ Total Summary Results:
 
 ![](Resources/total_summary.PNG)
 
-Overall the lots have a variance of roughly 62.3, which is lower than the 100 PSI variance required. The mean and median are very close at roughly 1499 and 1500 PSI respectively making it likely that this is the intended design PSI.
+Overall the lots have a variance of roughly 62.3, which is lower than the 100 PSI variance required. The mean and median are very close at roughly 1499 and 1500 PSI respectively making it likely that 1500 is the intended design PSI.
 
 
 Lot Summary Results:
