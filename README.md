@@ -55,6 +55,7 @@ In the results of this t-test, the null hypothesis is that the true mean is equa
 T-test Lot 1 Summary Results:
 ![](Resources/lot1t.PNG)
 
+
 In the results of this t-test, the null hypothesis is that the true mean is equal to 1500 PSI. This has failed to be rejected on a 95% confidence interval definitively as the p-value was 1. 
 
 
