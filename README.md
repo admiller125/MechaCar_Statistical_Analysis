@@ -82,6 +82,6 @@ use multiple linear regression on a previous year's data of all car models of a 
 correlation between the metrics selected and sales. The null hypothesis is that the slope of the linear model is 0 implying the opposite. Then I would determine which metrics 
 have a significant linear relationship to sales (based on the p-value). This further indicates which features the customer truly values.  After refining the metrics, I would 
 run a second multivariate linear analysis with just the statistically relevant metrics (the hypothesis, null hypothesis, and the alternative hypothesis remain the same). I would then use the coefficients found in this process to create a 
-linear equation to predict next year's sales numbers based on the metrics of all the cars in the category for this year. 
+linear equation to predict next year's sales numbers based on the metrics of all the cars in the category for this year. I would plug the metrics for MechaCar into the model along with the competitors new models and see how they compare in projected sales.
 
 
